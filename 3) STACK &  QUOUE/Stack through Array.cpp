@@ -17,7 +17,7 @@ public:
 	void push(int val)
 	{
 		std::cout<<val<<",";
-		if(top==(size-1)) //agar size 5 sy bhar jay ga to ye overflow hoga
+		if(top==(size-1)) // if the size>5, then overflow 
 		{
 			cout<<"Overflow condition !!!"<<endl;
 		}
